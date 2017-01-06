@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: nodejs-2-petfinder-tx-sql-2
+  host: nodejs-2-petfinder-tx-sql-2
+  disk_quota: 1024M
+  services:
+  - dashdb_tx_sql_2
